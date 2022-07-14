@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&family=Roboto:wght@400;500&display=swap");
+@import "./variable";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
+  color: $font-200;
+}
+
+body {
+  background-color: $background;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+input[type="text"] {
+  padding: 0.8rem;
+  height: 4rem;
+  background: none;
+  border: none;
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  // overflow-x: hidden;
+}
+
+%flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+%flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+%radius-50 {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+%scroll {
+  &::-webkit-scrollbar {
+    width: 13px;
+    &-button {
+      height: 4px;
+      background-color: transparent;
+    }
+    &-track-piece {
+      background-color: transparent;
+    }
+    &-thumb {
+      border-radius: 7px;
+      background-clip: padding-box;
+      border: 3px solid transparent;
+      box-shadow: inset 0 0 0 7px;
+    }
+  }
+}
+
+.avatar {
+  @extend %radius-50;
+  border: 1px solid $gray-200;
+}
+
+@media (max-width: 900px) {
+  .wrap {
+    justify-content: center;
+  }
+}
+@media (max-width: 740px) {
+  .wrap {
+    overflow-x: hidden;
+  }
+}

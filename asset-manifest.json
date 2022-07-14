@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/FacebookUI-clone/static/css/main.0ff2fe68.css",
+    "main.js": "/FacebookUI-clone/static/js/main.9284974d.js",
+    "static/media/user2.png": "/FacebookUI-clone/static/media/user2.3c37a790f9676542b372.png",
+    "static/media/user3.png": "/FacebookUI-clone/static/media/user3.5b6adb8e38ee506fde52.png",
+    "static/media/user1.png": "/FacebookUI-clone/static/media/user1.ab45eb1d42b1faaf3d12.png",
+    "static/media/Facebook_icon.png": "/FacebookUI-clone/static/media/Facebook_icon.cffdb46b9794885b4ebd.png",
+    "static/media/user4.png": "/FacebookUI-clone/static/media/user4.f93109ccaf6090e65a5f.png",
+    "static/media/bulls.jpg": "/FacebookUI-clone/static/media/bulls.8947ec16ee2ab1f06748.jpg",
+    "static/media/user5.png": "/FacebookUI-clone/static/media/user5.35863627e059739d8a9d.png",
+    "static/media/nets.jpg": "/FacebookUI-clone/static/media/nets.4c9fba06fba479414f4b.jpg",
+    "static/media/like.svg": "/FacebookUI-clone/static/media/like.75f9bea19bc19b9c135680982ab818e9.svg",
+    "index.html": "/FacebookUI-clone/index.html",
+    "main.0ff2fe68.css.map": "/FacebookUI-clone/static/css/main.0ff2fe68.css.map",
+    "main.9284974d.js.map": "/FacebookUI-clone/static/js/main.9284974d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ff2fe68.css",
+    "static/js/main.9284974d.js"
+  ]
+}
